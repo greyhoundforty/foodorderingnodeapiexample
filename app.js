@@ -52,7 +52,7 @@ app.patch("/order/:id", (req, res) => {
   for (let order of orders) {
     if (order.id == order_id) {
       if (order_update.food_name != null || undefined)
-        order.food_name = order_update.food_name;
+        order.food_name = order_update.food_qty;
       if (order_update.food_qty != null || undefined)
         order.food_qty = order_update.food_qty;
       if (order_update.customer_name != null || undefined)
