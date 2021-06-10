@@ -7,8 +7,8 @@ COPY package.json /app
 COPY app.js /app
 RUN npm install
 
-ENV PORT 3200
+ENV PORT 8080
 
-EXPOSE 3200
+EXPOSE 8080
 
 CMD ["npm", "start"]
