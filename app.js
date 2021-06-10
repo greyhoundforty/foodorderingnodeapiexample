@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const bodyparser = require("body-parser");
 
-const port = process.env.PORT || 3200;
+const port = process.env.PORT || 8080;
 
 //Middle ware
 
